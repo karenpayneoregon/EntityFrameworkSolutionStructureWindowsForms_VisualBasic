@@ -37,12 +37,12 @@ Namespace HumanResourcesModel
             .WithOptional(Function(e) e.department) _
             .WillCascadeOnDelete()
 
-            modelBuilder.Entity(Of dependent)() _
-            .Property(Function(e) e.first_name) _
+            modelBuilder.Entity(Of Dependent)() _
+            .Property(Function(e) e.FirstName) _
             .IsUnicode(False)
 
-            modelBuilder.Entity(Of dependent)() _
-            .Property(Function(e) e.last_name) _
+            modelBuilder.Entity(Of Dependent)() _
+            .Property(Function(e) e.LastName) _
             .IsUnicode(False)
 
             modelBuilder.Entity(Of dependent)() _
