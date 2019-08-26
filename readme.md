@@ -1,3 +1,3 @@
 ### Visual Studio: structuring an Entity Framework project
 
-TechNet article
+[TechNet article](https://social.technet.microsoft.com/wiki/contents/articles/53225.visual-studio-structuring-an-entity-framework-project.aspx)
