@@ -11,3 +11,10 @@ Scripts may be run inside Visual Studio via creating a new text file with .sql e
 > RelationsSimple is not part of the TechNet article, it's to assist with a forum question.
 
 ![ss](asserts/06.png)
+
+### Contacts code sample (not part of article)
+
+This is the sole Windows form project, all others are class projects and unit test projects.
+
+![contacts](asserts/2222.png)
+
