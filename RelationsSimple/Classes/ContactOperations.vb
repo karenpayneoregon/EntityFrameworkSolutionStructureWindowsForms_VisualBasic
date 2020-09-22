@@ -2,8 +2,14 @@
 
 Namespace Classes
 
+    ''' <summary>
+    ''' All data operations are done here and called from a form.
+    ''' </summary>
     Public Class ContactOperations
-
+        ''' <summary>
+        ''' Get all people without navigation properties
+        ''' </summary>
+        ''' <returns></returns>
         Public Shared Function GetAllContacts() As List(Of PersonEntity)
 
             Using context As New ContactContext
@@ -13,6 +19,11 @@ Namespace Classes
                                                 .LastName = person.LastName}).ToList()
             End Using
         End Function
+        ''' <summary>
+        ''' Get all phone numbers for a person without navigation properties
+        ''' </summary>
+        ''' <param name="personId"></param>
+        ''' <returns></returns>
         Public Shared Function PersonPhones(personId As Integer?) As List(Of PhoneEntity)
             Using context As New ContactContext
                 Return context.Phones.
@@ -24,6 +35,11 @@ Namespace Classes
                               .PhoneNumberId = phone.PhoneNumberId}).ToList()
             End Using
         End Function
+        ''' <summary>
+        ''' Get all email addresses for a person without navigation properties
+        ''' </summary>
+        ''' <param name="personId"></param>
+        ''' <returns></returns>
         Public Shared Function PersonEmailAddresses(personId As Integer?) As List(Of EmailEntity)
             Using context As New ContactContext
                 Return context.Emails.

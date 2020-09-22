@@ -1,4 +1,7 @@
 Namespace Models
+    ''' <summary>
+    ''' Sub set of Phone discarding navigation properties
+    ''' </summary>
     Public Class PhoneEntity
         Public Property PhoneNumberId As Integer
 
