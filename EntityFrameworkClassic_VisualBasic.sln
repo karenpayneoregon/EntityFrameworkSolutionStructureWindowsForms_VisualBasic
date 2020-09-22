@@ -9,8 +9,15 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "UnitTestTwoModels", "UnitTe
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{83D4189D-7977-44F2-BA82-FB437A98C31D}"
 	ProjectSection(SolutionItems) = preProject
+		DatabaseScripts\EntityFrameworkSpecific.sql = DatabaseScripts\EntityFrameworkSpecific.sql
+		DatabaseScripts\HumanResourcesScript.sql = DatabaseScripts\HumanResourcesScript.sql
+		DatabaseScripts\NorthWindScript.sql = DatabaseScripts\NorthWindScript.sql
 		readme.md = readme.md
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Forum questions", "Forum questions", "{894F1F2B-0526-4DFB-BF0B-53F69C4096C1}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "RelationsSimple", "RelationsSimple\RelationsSimple.vbproj", "{45D71054-F865-4A10-A5FA-0020BCB395FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,9 +33,16 @@ Global
 		{C79AD5A8-E8B0-4A67-988F-6BA6A703699C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C79AD5A8-E8B0-4A67-988F-6BA6A703699C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C79AD5A8-E8B0-4A67-988F-6BA6A703699C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45D71054-F865-4A10-A5FA-0020BCB395FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45D71054-F865-4A10-A5FA-0020BCB395FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45D71054-F865-4A10-A5FA-0020BCB395FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45D71054-F865-4A10-A5FA-0020BCB395FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{45D71054-F865-4A10-A5FA-0020BCB395FC} = {894F1F2B-0526-4DFB-BF0B-53F69C4096C1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0AF23FE5-E6FD-4B0A-8C7C-F5E5DBF0D4CD}
